@@ -1,0 +1,431 @@
+Brackets Editor.
+
+CSS Syntax..
+1.Inline Css
+2.Enternal CSS
+3.External CSS
+
+text-align:center; color:red;
+
+CSS-BACKGROUND
+body-background-color:red;
+    -background-Image:url("")
+    -background-repeat:no-repeat/repeat-x/repeat-Y
+    -background-position:top-right/top-center/top-left
+    -background-size:400px auto;
+    -background-attachment:fixed/scroll;
+
+    -background: #000 url('') no-repeat top center /
+     200px auto;
+
+
+
+CSS-BORDER
+    border-width: 5px; --- border-width: 5px 20px 30px 40px;
+
+    border-style: solid/dotted/dashed/ridge/inset/none; 
+    border-style: dotted solid dashed ridge;
+
+
+    border-color: #ff0000;
+    border-color: #ff0000 #ffff00 #333 #144;
+
+    border-radius: 10px;
+    border-radius: 10px 20px 30px 40px;
+    
+    border: 5px solid #ff0000;
+
+
+
+
+CSS-MARGINS
+    margin-top:50px;
+    margin-left:100px;
+    margin-right:200px;
+    margin-bottom:300px;
+    margin: 0 auto;
+
+    body{margin:0px;}
+    margin: 50px 100px 200px 300px;
+
+
+
+
+
+CSS-PADDING
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:30px;
+    padding-bottom:40px;
+
+    padding:10px 20px 30px 40px;
+
+
+
+
+
+
+
+
+CSS-OUTLINE
+    border: 1px solid #333;
+    outline-width: 5px;
+    outline-style: solid/groove;
+    outline-color: red;
+    outline-offset: 20px;
+
+    outline: 3px/thin/thick/medium solid green;
+
+
+
+
+
+
+
+
+
+CSS-TEXT
+    color:green;
+    text-align: left/right/center/justify;
+    text-decoration: none/underline/overline/linethrough;
+    text-transform: uppercase/lowercase/capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    line-height: 1/2/1.5-px
+    word-spacing: 30px;
+    text-shadow: 1px 2px red;
+
+
+
+
+
+
+
+
+CSS-FONTS
+    font-family: tamoha/agency FB;
+    font-size: 50px/ 2em;
+    font-style: italic/normal;
+    font-weight: normal=400/bold=700;
+    font-varient:normal/uppercase/lowercase/small-caps;
+    
+Google-Font
+    https://fonts.google.com
+    select a font then customize then copy url & pest head section in html
+
+
+Font-Awesome
+    google search font awesome
+    cope link and pest html head section 
+    select icon and copy icon tag and pest body section
+
+
+
+Google-Icon
+    search google meterial icon
+    https://meterial.io
+    icon font-Developer guide-
+    setup Method 1 using via google web fonts
+    copy link and pest html head section
+    then select any icon then copy i teg and pest
+    body section
+
+
+
+
+
+Links 
+    a{color:#fff;}
+    a:link{text-decoration:none;
+    background:#333;}
+
+    a:visited{background:red;
+    color:yello;}
+
+    a:hover{background:yello;
+    color:red;}
+
+    a:active{background:green;
+    color:#333;}
+
+
+
+
+
+
+
+CSS List
+    list-style-type: none/circle/square/upper-roman/lower-roman/lower-alpha/upper-alpha;
+    list-style-image: url('');
+    list-style-position: inside/outside;
+
+    list-style: square inside url('');
+
+
+
+
+
+
+Table-Design
+    border-collapse: collapse;
+    table, td, th
+    th, td
+
+
+
+
+Display
+    block tag inline
+    inline tag block
+    display:none/block/inline
+    ul, li{display: inline}
+
+
+
+
+
+Max Width
+    border: 3px solid green
+    max-width: 400px;
+    margin: 0 auto;
+
+
+
+
+
+Position
+    position: absolute/relative/static/fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 50%; height & width soman rakhe border-radius hobe ordhek
+
+
+😋😋😋Sticky menu
+    position: sticky;
+    top:0px;
+      
+
+
+
+
+Overflow
+    overflow: scroll/hidden/visible/auto  
+
+
+
+
+CSS-Flot
+    float: left/right/none; 
+    clear: left/right/both; 
+
+
+
+
+
+inline-block
+    display: inline-block/block;
+    display inline hole height weight kaj kore na
+    simple nav menu
+
+
+
+
+
+
+
+Combinators
+     div p/ div > p/ div + P/ div ~ p {background-color:yello}    
+
+
+
+
+
+Pesudo
+    a:hover{color:red} sudo class
+    h2:nth-child(n ar value dite hobe 3){color:red}
+    h2:first-child{color:red}
+    h2:last-child{color: red}
+
+
+
+
+
+
+
+pesudo-element
+    p::first-letter{color:red; font-size:50px;}
+    p::first-line
+    h2::before{content: url() ;}
+    h2::after{content: url();}
+
+
+
+
+
+
+
+
+
+opacity
+    img:hover{opacity:0.5; 0 thke 1 ar majkhaner value use korbo
+    .bg{background: url('') no-repeat center / cover;
+
+    akta image ar vitor lekha nia tar background sada
+    kore kicu likhe sekhane opacity dibo
+     
+    lekhata image ar majkhane anbo margin-top dia
+
+
+
+
+
+
+
+droupdown navigation
+    ul>li*5>a[href="#"]{home}   
+
+ 
+
+
+
+
+image sprites
+    google: social sprite icons    
+    ul>li*5>a[href="#"]{home}   
+
+
+
+
+
+media-queries
+   
+
+
+
+
+Gradiets
+    background: linear-gradient(red,green,yello)
+                              (to right, red 50%, green 25%, blue 25%)
+                              (to bottom/top/left)
+                              (rgba(255,0,0,0), rgba(255,0,0,1))
+                              flatuicolors.com
+
+    background: radial-gradient(circle, red,yello,green);
+                              (red 50%, yello 50%);
+
+
+
+
+Shadow
+    text-shadow:0 0 0 red; [ inspect kore 0 ar value bariye dekbo]
+   
+    text-shadow: -2px 0 red, 0 2px green, 2px 0 yello, 0 -2px lime
+
+
+    box-shadow: 4px 8px 10px rgba(0,0,0,0.2), -5px 5px 10px rgba(0,0,0,0.2);
+
+
+
+
+Transforms
+    transform: translate(100px, 200px)
+               translateX(100px);
+               translateY(100px);
+               
+transform:
+              rotate(30deg/-30deg);
+               scale(1)/(2)/(0.5)
+               scaleX(2)/scaleY(2,3)
+               skew(20deg)/(-20deg)
+               skewX()/skewY()
+
+
+
+
+
+
+Transition
+     transition: 3s;
+     transition-property: width:3s,height:1s;
+     transition: width:3s;
+     transition-delay: 2s;
+     transition-timing-function:ease/ease-in/ease-out/ease-in-out/linear;
+     transiton-duration: 3s;
+    transition-property: width height;
+   
+     transition: width  1s ease 2s;
+
+
+
+
+
+Animation
+    @keyframes musa{
+`	from{background-color: red;
+        to{background-color:yello;
+        
+othoba
+	0%{left:0; top:0;}
+        25%{left:200px; top:0;}
+        50%{left:200px; top:200px;}
+        75%{left:0; top:200px;}
+        100%{left:0; top:0;}
+
+	} 
+
+     animation-name:musa;
+     animation-duration: 2s;
+     position:relative;
+     animation-delay:2s;
+     animation-iteration-count:3/infinite;
+     animation-direction:reverse/alternate;
+     animation-timing-function:ease/ease-in/ease-out/lenear;
+     
+     animation-fill-mode:backwards/forwards;
+
+
+
+
+     animation: musa 4s ease-in 1s 2 alternate backwards;
+
+
+
+
+
+
+
+
+
+Image-filters
+    filter:blur(2px)
+          :brightness(100%/150%/200%) 
+          : contrast(150%/200%)
+          : grayscale(100%)
+          : invert(100%/200%)
+          : opacity(50%)
+          : saturate(5/2/1/3)
+          : sepia(100%) 
+          : drop-shadow(8px 16px 20px green);
+
+
+
+
+
+
+Box-sizing
+      box-sizing:border-box;
+      *{box-sizing:border-box;}
+
+
+
+
+
+
+
+Grid-layout
+      
+
