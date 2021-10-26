@@ -1,0 +1,104 @@
+html:5 tab ba ctrl+E
+<html lang="en-US">
+<html lang="bn-BD">
+<meta charset="UTF-8">
+
+heading,peragraph,softwrap-webstrome
+
+style="color: green; text-align:center; font-size: 45px; background-color: black;"
+
+
+
+bold,strong;  i/em=e Emphasis element;  mark; small, label, del, u/ins=inserted text;   sub= subscripted text , sup=superscript text; 
+
+
+
+blockquote ,   <abbr title="Bangladesh">BD</abbr> ,   <br><br>
+
+ <bdo dir="rtl">my name is musha</bdo>,Bi-Directional Override    <q>,   <address> ,  <cite>Hello<cite>
+
+
+
+<a  href="https://www.google.com/"target="_balnk">Click here</a>
+
+   <br><br>
+
+   <!----Start header section-->
+
+
+
+Color:
+
+<h2 style="color:blue; #ff0000; #ffff00; 
+background-color:#000000/#000; #ffffff/#fff"
+color:rgb(240,11,230)
+color:rgba(240,11,230,1/0/0.7/0.4 )  
+google: html hex code
+
+https://flatuicolors.com/
+
+color zila addons for chorme
+
+hex to rgb converter
+	
+
+
+
+image, table, list, blocks, 
+
+iframe=name="nameattribute",websiteload/youtube videoload,googlemap load,
+
+video,audio
+
+website basic layout/stracture
+
+
+
+
+
+
+Form  <select multiple size="2"
+<label for ="nam">Name</label>
+<input id="nam" type="text" raquired>
+<input type="range/url">
+
+
+
+inline css or external css class & ID
+
+
+
+
+SVG circle
+<svg width="100" height="100">
+	<circle cx="50" cy="50" r="45" fill="red" stroke-width="5" stroke="green"/>
+</svg>
+
+
+SVG Rectangle
+<svg width="400" height="200">
+	<rect width="400" height="200" style="fill:rgb(255,255,0); stroke-width:10; stroke:rgb(255,0,0);"/>
+</svg>
+
+
+
+HTML Entity charecter:
+
+site: https://www.freeformatter.com/html-entities.html
+
+
+HTML Symbols:
+
+ 
+https://www.toptal.com/designers/htmlarrows/symbols/
+
+
+
+
+
+
+
+
+
+
+
