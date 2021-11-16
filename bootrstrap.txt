@@ -1,0 +1,270 @@
+****Heading
+class="h1-h6"
+
+
+****Display Class
+class="display-1 T0 display-4"
+
+
+
+*****paragraphs
+class="lead"
+
+
+
+***style Classes
+class="font-weight-bold/font-weight-normal/font-italic"
+
+
+
+***Text Transforms
+class="text-lowercase/text-uppercase/text-capitalize"
+
+
+
+*****Lists
+<ul class="list-unstyled/list-inline">list-inline dile li a list-inline item dite hobe
+<li class="list-inline-item">same class porer li a o dite hobe
+
+
+
+
+
+
+****justify
+class="text-justify"
+
+
+***Alignment
+class="text-left/text-center/text-right"
+
+
+***Responsive Align
+class="text-sm-right/text-md-right/text-lg-right/text-xl-right" 
+ sm=(576-768), md=(768-992), lg=(1200) xl=1200 ar upor
+
+
+class="text-sm-left/text-md-center/text-lg-left/text-sm-left"
+
+
+
+
+
+***Vertical Aligment
+<tr>
+	<td class=""align-baseline">baseline</td>
+	<td class="align-top">
+	<td class="align-middle/align-bottom/align-text-top/align-text-bottom">
+
+
+
+
+
+***Turn block to inline
+<h1 class="d-inline bg-success">Hello</h1>
+<h1 class="d-inline bg-success">Googbye</h1>
+
+
+
+***Turn inline to block
+<span class="d-block bg-success">Block</span>
+
+
+
+***Inline Block
+<div class="d-inline-block bg-success">
+	<h3>Hello<h3>
+this is inline
+</div>
+
+
+<div class="d-inline-block bg-primary">
+<h3>Hello</h3>
+this is inline
+</div>
+
+
+
+
+
+
+=======Floats and position==========
+
+***Floats
+<div class="float-left">Float Left</div>
+<div class="float-right">Float Right</div>
+<div class="float-none">Float none</div>
+
+
+
+***Responsive Floats
+class="float-sm-right/left/none"
+class="float-md-right/left/none"
+class="float-lg-right/left/none"
+class="float-xl-right/left/none"
+
+
+
+
+
+****clearfix
+<div class="bg-success clearfix">
+<buttton class="btn btn-secondary float-left">
+<button class="btn btn-secondary float-right"
+
+</div> div ar ar niche kicu content rakbo clearfix ta sobar laste use korbo
+
+
+
+***Fixed top
+<h3 class="fixed-top">Fixed Top</h3>
+
+
+
+***Fixed sticky
+<h2 class="sticky-top">sticky</h2>
+
+
+***fixed Bottom
+<h3 class="fixed-bottom">fixed bottom</h3>
+
+
+
+
+========== Colors & Background=============
+
+*****Text Colour
+
+class="text-primary/success/info/warning/danger/muted/white"
+
+
+
+****Background Colour
+
+class="bg-primay/success/info/warning/danger/muted/white"
+
+
+***Invisible
+<p class"invisible">Hello</p>
+
+
+
+
+
+
+===================Margin & Padding======================
+
+***margin bottom
+
+class="mb-0/mb-1/mb-2/mb-3/mb-4/mb-5"      1 =  (0.25ram) default 2 = 0.5ram 3 =1ram
+
+
+
+
+***margin Top
+class="mt-0/mt-1/mt-2/mt-3/mt-4/mt-5"
+
+
+
+
+****Margin left & Margin Right
+
+class="same of mb & mt"
+
+
+
+
+
+***Mx  margin left right
+class="mx-3"
+
+
+***mx margin top bottom
+class="my-3"
+
+
+***blank All side
+class="m-3"
+
+
+
+***padding bottom
+class="pb-1/pt-3/pr-3/pl-4/px-5/py-5/p-2"
+
+
+
+
+****Width classes
+class="w-25/w-50/w-75-w-100"
+
+
+***height
+<div style="height="300";border:1px solid red;>
+
+	<div class="h-25">height</div>
+</div>
+
+
+
+=================Media queries=====================
+
+
+
+***small device = 576px;
+***mediam device = 768px;
+***large device = 992px;
+***extra large device = 1200px;
+
+
+
+===============button==================
+
+
+***Buttons
+class="btn btn-primay/btn-secondary/btn-success/btn-info/btn-warning/btn-danger/btn-link"
+
+
+
+***Button Tags
+<a class="btn btn-primay" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+
+
+
+***outline Button
+<button class="btn btn-outline-primay/secondary/success/info/warning/danger" type="button">Button</button>
+
+
+
+***Button Sizes
+class="btn-lg/sm/block"
+
+
+
+
+****States
+Active button = class="active"
+Diisabled Button = class="disabled"
+
+Toggle state = {class="btn-toggle" data-toggle="button"}
+
+
+***Button Dropdowns
+<div class="dropdown dropup">
+	<button type="button" classs="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+	My Dropdown
+	</button>
+	<div class="dropdown-menu">
+	<a href="#" class="dropdown-item" >Link One</a>
+	<a hef="#" class="dropdown-item">link Two</a>
+	<a href="#" class="dropdown-item">Link Three</a>
+	</div>
+</div>
+
+
+
+
